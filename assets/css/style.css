@@ -16,6 +16,10 @@ body {
   background-color: #fff;
 }
 
+.bggriscard {
+  background-color: #ECEBEA;
+}
+
 .bgmain {
   background-color: #F9F9F9;
 }
@@ -25,7 +29,11 @@ body {
 }
 
 .bgmodal {
-  background-color: #FFABB6;
+  background-color: #FFABB6 !important;
+}
+
+.bacgroundsecundario {
+  background-color: #EEEEEE;
 }
 
 .grissecundario {
@@ -131,6 +139,14 @@ html,
 
 .swiper-button-next {
   color: hsl(0, 100%, 50%) !important;
+}
+
+.scroll {
+  height: 16em;
+  line-height: 1em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
 }
 
 .inputfoucus:focus {

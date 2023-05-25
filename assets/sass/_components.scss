@@ -32,6 +32,17 @@ html,
     color: hsl(0, 100%, 50%) !important ;
 }
 
+//scroll
+
+.scroll {
+  height: 16em;
+  line-height: 1em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+
 //input check
 .inputfoucus{
   &:focus{

@@ -2,9 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 
 $color-main: hsl(0, 100%, 50%);
+$color-red-secundary: #F7E7E9;
 $color-input: #adb5bd;
 $color-sec: #EEEEEE;
 $bacgraund-main: #F9F9F9;
+$backgraund-gris-card: #ECEBEA;
 $color-gris: #787878;
 $color-secun-gris: #6F6F6F;
 $fon-7: 0.75rem;
@@ -28,6 +30,11 @@ body {
 .bgwhite{
     background-color: #fff;
 }
+
+.bggriscard{
+background-color: $backgraund-gris-card;
+}
+
 .bgmain {
     background-color: #F9F9F9;
 }
@@ -37,7 +44,11 @@ body {
 }
 
 .bgmodal{
-    background-color: #FFABB6;
+    background-color: #FFABB6 !important;
+}
+
+.bacgroundsecundario {
+    background-color: $color-sec;
 }
 
 .grissecundario {
