@@ -28,6 +28,10 @@ body {
   background-color: #EEEEEE;
 }
 
+.bgcolorredsecundario {
+  background-color: #F7E7E9;
+}
+
 .bgmodal {
   background-color: #FFABB6 !important;
 }
@@ -198,6 +202,26 @@ html,
 /* Esto no es necesesario y puede borrarse */
 .my-custom-select:focus-within {
   border: red solid 1px;
+}
+
+.formulary__font--title {
+  font-size: 1.125rem;
+}
+@media (min-width: 1200px) {
+  .formulary__font--title {
+    font-size: 1.5rem;
+  }
+}
+.formulary__font--body {
+  font-size: 0.875rem;
+}
+@media (min-width: 1200px) {
+  .formulary__font--body {
+    font-size: 1rem;
+  }
+}
+.formulary__font--icon {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
