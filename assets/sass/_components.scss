@@ -123,3 +123,15 @@ html,
     }
   }
 }
+
+//components index
+.assitance{
+  &__body{
+      &_fonts{
+          &--titleXl{
+              font-size: 0.938rem;
+          }
+      }
+  }
+}
+
