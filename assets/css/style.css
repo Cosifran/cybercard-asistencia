@@ -49,10 +49,6 @@ body {
   color: #787878;
 }
 
-a {
-  color: transparent !important;
-}
-
 .bacgroundsecundario {
   background-color: #EEEEEE;
 }
@@ -63,6 +59,10 @@ a {
 
 .bgred {
   background-color: hsl(0, 100%, 50%) !important;
+}
+
+.removecolorlink {
+  color: transparent;
 }
 
 .justifytext {

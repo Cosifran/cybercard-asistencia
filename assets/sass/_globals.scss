@@ -65,9 +65,6 @@ background-color: $backgraund-gris-card;
     color: $color-gris;
 }
 
-a {
-    color: transparent !important;
-}
 
 .bacgroundsecundario {
     background-color: $color-sec;
@@ -79,6 +76,10 @@ a {
 
 .bgred {
     background-color: $color-main !important;
+}
+
+.removecolorlink{
+    color: transparent;
 }
 
 .justifytext {
