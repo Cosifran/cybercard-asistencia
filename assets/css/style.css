@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*  Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
 body {
@@ -115,6 +116,12 @@ a {
   min-height: 2em;
 }
 
+.tamañoderadius {
+  border: 2px solid #adb5bd !important;
+  height: 1.125rem !important;
+  width: 1.125rem !important;
+}
+
 html,
 .swiper {
   width: 100%;
@@ -228,26 +235,6 @@ html,
   border: red solid 1px;
 }
 
-.formulary__font--title {
-  font-size: 1.125rem;
-}
-@media (min-width: 1200px) {
-  .formulary__font--title {
-    font-size: 1.5rem;
-  }
-}
-.formulary__font--body {
-  font-size: 0.875rem;
-}
-@media (min-width: 1200px) {
-  .formulary__font--body {
-    font-size: 1rem;
-  }
-}
-.formulary__font--icon {
-  font-size: 2rem;
-}
-
 .assitance__body_fonts--titleXl {
   font-size: 0.938rem;
 }
@@ -322,6 +309,35 @@ html,
   color: rgb(255, 255, 255);
   background-color: hsl(0, 100%, 50%);
   border-radius: 10px;
+}
+
+.formulary__body_font--title {
+  font-size: 1.125rem;
+}
+@media (min-width: 1200px) {
+  .formulary__body_font--title {
+    font-size: 1.5rem;
+  }
+}
+.formulary__body_font--titleSm {
+  font-size: 1.25rem;
+}
+.formulary__body_font--body {
+  font-size: 0.875rem;
+}
+@media (min-width: 1200px) {
+  .formulary__body_font--body {
+    font-size: 1rem;
+  }
+}
+.formulary__body_font--bodySm {
+  font-size: 0.875rem;
+}
+.formulary__body_font--bodyMd {
+  font-size: 0.938rem;
+}
+.formulary__body_font--icon {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
