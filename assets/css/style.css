@@ -122,6 +122,10 @@ body {
   width: 1.125rem !important;
 }
 
+.textseparation {
+  line-height: 1.063rem;
+}
+
 html,
 .swiper {
   width: 100%;
@@ -242,6 +246,9 @@ html,
 .asistanceSearch__body_cards--cardMain_fonts--titleSm {
   font-size: 1.25rem;
 }
+.asistanceSearch__body_cards--cardMain_fonts--titleMd {
+  font-size: 1.125rem;
+}
 .asistanceSearch__body_cards--cardMain_fonts--bodySm {
   font-size: 0.75rem;
 }
@@ -250,6 +257,9 @@ html,
 }
 .asistanceSearch__body_cards--cardMain_fonts--bodylg {
   font-size: 1rem;
+}
+.asistanceSearch__body_cards--cardMain_fonts--bodyXl {
+  font-size: 0.938rem;
 }
 .asistanceSearch__body_cards--cardMain_fonts--flooterSm {
   font-size: 0.75rem;
@@ -267,7 +277,7 @@ html,
   font-size: 1.125rem;
 }
 .asistanceSearch__body_modals--body_fonts--bodySm {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
 }
 .asistanceSearch__body_modals--flooter_fonts--titleSm {
   font-size: 1.125rem;
